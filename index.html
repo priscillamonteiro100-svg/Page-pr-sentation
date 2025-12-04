@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ma page Materialize + Typed.js</title>
+
+  <!-- Materialize CSS -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+
+  <!-- Ton CSS perso -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+  <!-- Script où tu écriras la config de Typed.js -->
+  <script type="text/javascript">
+    // Exemple (à adapter) :
+    // var typed = new Typed("#element", {
+    //   strings: ["Texte 1", "Texte 2"],
+    //   typeSpeed: 50
+    // });
+  </script>
+
+  <!-- Style généré par typed.js -->
+  <style type="text/css" data-typed-js-css="true"></style>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+
+  <!-- Ton JS Materialize -->
+  <script>
+    // Exemple : initialisation des tooltips, sidenav, etc.
+    // document.addEventListener('DOMContentLoaded', function() {
+    //   var elems = document.querySelectorAll('.tooltipped');
+    //   M.Tooltip.init(elems);
+    // });
+  </script>
+
+  <!-- Éléments que Materialize peut ajouter dynamiquement -->
+  <div class="material-tooltip"></div>
+  <div class="material-tooltip"></div>
+  <div class="material-tooltip"></div>
+  <!-- (plusieurs <div class="material-tooltip"></div> comme sur ta capture) -->
+
+  <div class="hiddendiv common"></div>
+
+  <div class="drag-target"
+       style="left: 0px;
+              touch-action: pan-y;
+              -webkit-user-drag: none;
+              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+  </div>
+</body>
+</html>

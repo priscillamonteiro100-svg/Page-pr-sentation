@@ -1,0 +1,17 @@
+/* Styles de base (Materialize fait déjà beaucoup) */
+
+html {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Exemple : tu peux styliser tes nav ici */
+nav {
+  background-color: #2196f3; /* bleu Materialize */
+}
+
+/* Cache les nav vides si tu n’en as pas encore besoin */
+nav:empty {
+  min-height: 56px; /* juste pour voir la barre */
+}
